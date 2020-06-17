@@ -1,0 +1,26 @@
+.search-container {
+  display: flex;
+}
+
+.hamburger {
+  width: 35px;
+  height: 5px;
+  background-color: #68aa80;
+  margin: 6px 0;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-left: 50px solid #68aa80;
+  border-bottom: 25px solid transparent;
+}
+
+.search-input {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 70%;
+  border-radius: 4px;
+  background-color: #e7e7e7;
+}
