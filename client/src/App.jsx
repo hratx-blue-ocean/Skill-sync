@@ -1,5 +1,6 @@
 import React from 'react';
 import Search from './components/Search.jsx';
+import NewPost from './components/NewPost.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -11,6 +12,7 @@ class App extends React.Component {
     return (
       <div>
         <Search />
+        <NewPost />
       </div>
     );
   }
